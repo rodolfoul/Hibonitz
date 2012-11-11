@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/stopwatch_img"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/stopwatch" />
+
+        <TextView
+            android:id="@+id/stopwatch_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/stopwatch_img"
+            android:text="Duration"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/stopwatch_gera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/stopwatch_text"
+            android:layout_toRightOf="@id/stopwatch_img"
+            android:text="Time Length"
+            android:textSize="12dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/flag_img"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/flag" />
+
+        <TextView
+            android:id="@+id/flag_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/flag_img"
+            android:text="Distance"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/flag_gera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flag_text"
+            android:layout_toRightOf="@id/flag_img"
+            android:text="Time Length"
+            android:textSize="12dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/runner_img"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/runner" />
+
+        <TextView
+            android:id="@+id/runner_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/runner_img"
+            android:text="Calories"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/runner_gera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/runner_text"
+            android:layout_toRightOf="@id/runner_img"
+            android:text="1500 kcal"
+            android:textSize="12dp" />
+    </RelativeLayout>
+
+</LinearLayout>

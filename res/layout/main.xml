@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/new_jog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15px"
+        android:layout_marginRight="15px"
+        android:layout_marginTop="10px"
+        android:background="@drawable/verde"
+        android:gravity="center"
+        android:text="New Jog/Run" />
+
+    <Button
+        android:id="@+id/history"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15px"
+        android:layout_marginRight="15px"
+        android:layout_marginTop="10px"
+        android:background="@drawable/verde"
+        android:gravity="center"
+        android:text="History" />
+
+    <Button
+        android:id="@+id/sync"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15px"
+        android:layout_marginRight="15px"
+        android:layout_marginTop="10px"
+        android:background="@drawable/verde"
+        android:gravity="center"
+        android:text="Sync" />
+
+</LinearLayout>
